@@ -92,7 +92,7 @@ const AddBookForm = (props) => {
           onChange={handleChangePages}
         />
       </FormGroup>
-      <Button type='submit' variant='contained'>
+      <Button type='submit' id="submit" variant='contained'>
         ADD
       </Button>
     </Box>

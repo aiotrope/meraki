@@ -10,7 +10,7 @@ const BookList = ({ books }) => {
   console.log(books)
   return (
     <Box sx={{ mt: 5 }}>
-      <Typography variant='h2'>Books</Typography>
+      <Typography variant='h1'>books</Typography>
       <List>
         {books?.map((book, idx) => {
           return (

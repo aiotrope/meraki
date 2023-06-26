@@ -32,7 +32,7 @@ const Book = ({ setBook, setCounter, book }) => {
   return (
     <Box component='main' sx={{ p: 3 }}>
       <Toolbar />
-      <Typography variant='h3'>Books</Typography>
+      <Typography variant='h2'>Books</Typography>
       <Typography paragraph={true}>{book.name}</Typography>
       <Typography paragraph={true}>{book.author}</Typography>
       <Typography paragraph={true}>{book.pages}</Typography>

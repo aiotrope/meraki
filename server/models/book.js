@@ -20,7 +20,6 @@ const BookSchema = new mongoose.Schema(
   {
     toJSON: { virtuals: true },
     toObject: { virtuals: true },
-    collection: 'Books',
   }
 )
 
